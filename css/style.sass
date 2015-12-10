@@ -1,0 +1,265 @@
+@font-face
+	font-family: "Raleway" !important
+	font-style: normal
+	font-weight: normal
+body
+	font-family: "Raleway", sans-serif !important
+	font-weight: normal
+	font-size: 14px
+	min-width: 320px
+	position: relative
+	line-height: 1.6
+	-webkit-font-smoothing: antialised
+	overflow-x: hidden 
+body input:focus:required:invalid, body textarea:focus:required:invalid 
+	color: red
+
+body input:required:valid, body textarea:required:valid 
+	color: green
+.hidden
+	display: none
+a
+	text-decoration: none
+	font-weight: bold
+p
+	font-size: 15pt
+.loader
+	background: none repeat scroll 0 0 #ffffff
+	bottom: 0
+	height: 100%
+	left: 0
+	position: fixed
+	right: 0
+	top: 0
+	width: 100%
+	z-index: 9999
+.loader .loader_inner
+	font-size: 50px
+	height: 60px
+	width: 60px
+	margin-top: -30px
+	margin-left: -30px
+	left: 50%
+	top: 40%
+	position: absolute
+header
+	background-image: url("../img/bg.jpg")
+	background-size: cover
+	height: 100vh
+.centerbox
+	text-align: center
+	padding-top: 15%
+	h1
+		margin-bottom: 5px !important
+		color: #F3F3F3
+		font-weight: bold
+	p
+		text-transform: uppercase
+		color: #F3F3F3
+		font-weight: bold
+.topnav	ul
+	margin: auto
+	padding: 3%
+	text-align: center
+.topnav	ul li
+	text-align: center
+.topnav	a
+	font-weight: bold
+	text-decoration: none
+	color: #2185D5
+	border: 1px solid transparent
+.topnav	a:hover
+	color: #175c93
+	background: none !important
+	border: 1px solid white
+.topnav	a:link
+	background: none !important
+.menuicon
+	color: #2185D5
+	position: fixed
+	top: 25px
+	right: 25px
+	font-size: 2em
+	z-index: 999
+	cursor: pointer
+.content
+	height: 2000px
+.par
+	height: 200px
+	overflow: hidden
+.par:after
+	box-shadow: inset 0px 0px 0px 40px rgba(0,0,0, 1) 
+.parim
+	height: 800px
+	background-image: url("../img/par.jpg")
+	background-size: cover
+.topnav
+	z-index: 800
+	left: 3000px
+body
+	font-family: sans-serif
+	font-size: 16px
+	min-width: 320px
+	position: relative
+	line-height: 1.6
+	font-family: "RobotoRegular", sans-serif
+	overflow-x: hidden
+.hidden
+	display: none
+.small_line
+	height: 3px
+	width: 300px
+	margin: 0 auto
+	background: #F3F3F3
+@media only screen and (max-width : 768px) 
+	.topnav
+		top: 100px
+.about
+	border-top: 3px #175c93 solid
+	background-color: #F3F3F3
+	text-align: center
+	padding-bottom: 100px
+.about h3
+	text-align: left
+.about ul li
+	color: #3A4750
+	font-size: 1.2em
+	margin-left: 100px
+	padding: 5px 0 5px 0
+	text-align: left
+.hhead
+	color: #3A4750
+	text-align: center
+	padding: 50px
+.hhead h2
+	margin-top: 15px
+#aboutpadding
+	margin-top: 60px !important
+#skills
+	color: #F3F3F3
+	background: #F3F3F3
+	padding-bottom: 30px
+#skills ul
+	margin: auto
+#skills ul li
+	font-size: 1.5em
+#skills h2
+	text-align: center
+.item
+	text-align: center
+.item img
+	position: relative
+	top: 60px
+.itemcontent
+	height: 300px
+	border-radius: 10px
+	text-align: left
+	padding: 50px 20px
+	background: #303841
+.itemcontent ul
+	padding-left: 20%
+	padding-top: 10%
+.small_line_h
+	background: #3A4750
+	width: 150px
+	height: 2px
+	margin: 0 auto
+#contacts h2
+	text-align: center
+.hhead-white
+	color: #F3F3F3
+	text-align: center
+.hhead-white>.small_line_h
+	background: #F3F3F3
+#contacts
+	background: #F3F3F3
+	height: 100vh
+#works
+	background: #3A4750
+	height: 900px
+#contacts
+	height: 600px
+	color: #F3F3F3
+#contacts p
+	color: #3A4750
+	font-family: arial
+#contacts>.hhead>p
+	color: #3A4750
+#contacts a
+	color: #3A4750
+#contacts i
+	color: #2185D5
+	font-size: 60px
+#contacts i:hover
+	color: #175c93
+.contactsicons
+	text-align: center
+	padding-top: 25px
+#contacts h3
+	color: #3A4750
+.contactitems
+	height: 110px
+.left
+	float: left
+footer
+	padding-top: 10px
+	padding-bottom: 10px
+	font-family: arial
+	background: #303841
+footer p
+	color: #F3F3F3
+	font-size: 15px !important
+	line-height: 100px
+footer .fa
+	color: #2185D5
+	padding-left: 15px
+	font-size: 25px
+footer .fa:hover
+	color: #175c93
+.right
+	float: right
+.swiper-container 
+	width: 100%
+	height: 100%
+	margin-left: auto
+	margin-right: auto
+.swiper-slide 
+	text-align: center
+	font-size: 18px
+	background: #fff
+	/* Center slide text vertically */
+	display: -webkit-box
+	display: -ms-flexbox
+	display: -webkit-flex
+	display: flex
+	-webkit-box-pack: center
+	-ms-flex-pack: center
+	-webkit-justify-content: center
+	justify-content: center
+	-webkit-box-align: center
+	-ms-flex-align: center
+	-webkit-align-items: center
+	align-items: center
+	/* my style now*/
+	width: 300px !important
+	height: 450px !important
+.swiper-container
+	height: 500px !important
+.swiper-pagination-bullet
+	font-size: 20px
+.swiper-container
+	overflow: hidden
+.mfp-content
+	text-align: center !important
+.mfp-close
+	font-size: 80px !important
+	top: 5% !important
+	left: 49% !important
+	color: #2185D5 !important
+.popup_content
+	font-size: 50px
+	position: absolute
+	right: 10px
+	display: none
+.swiper-slide-active:hover .popup_content
+	display: block
