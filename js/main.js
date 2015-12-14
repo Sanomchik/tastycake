@@ -4,18 +4,15 @@ $(document).ready(function(){
 	$('.aboutright').animated('slideInRight', 'fadeOut');
 	$('.hhead').animated('fadeInDown', 'fadeOut');
 	$('.itemskills').animated('flipInY', 'fadeIn');
-	$(".topnav ul a").mPageScroll2id();
-	$(".popup_content").magnificPopup({
-		type:"inline",
-		midClick: true
-	});
+	$("nav ul a").mPageScroll2id();
+	$("section a").mPageScroll2id();
 $(window).scroll(function() {
 
 	var st = $(this).scrollTop() /10;
 
-	$(".parim").css({
-		"transform" : "translate3d(0px, " + st/8 + "%, .01px)",
-		"-webkit-transform" : "translate3d(0px, -" + st/8  + "%, .01px)"
+	$(".par").css({
+		"transform" : "translate3d(0px, " + st/4 + "%, .01px)",
+		"-webkit-transform" : "translate3d(0px, -" + st/4  + "%, .01px)"
 	});
 });
 var flag = true;
