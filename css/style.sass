@@ -44,10 +44,28 @@ p
 	position: absolute
 section
 	height: 800px
+header
+	height: auto
+	background-color: rgba(255,255,255,0.6)
+.header-contacts
+	font-size: 35px
+	color: #AD2959
+.header-contacts i
+	margin-top: 50px
+.header-contacts a
+	margin-top: 53px
+	font-size: 20px
+	color: #118DF0
+.header-contacts a:hover
+	text-decoration: underline !important
+.header-contacts-item
+	width: 275px
 #section1
 	background: url(../img/start.jpg)
 	background-size: cover
 	height: 635px
+#section1 h1
+	line-height: 120px
 #mynavbar
 	width: 100px
 	right: 25px !important
@@ -65,6 +83,10 @@ section
 .active a
 	font-size: 2em
 	color: #AD2959 !important
+.left
+	float: left
+.right
+	float: right
 h3
 	padding-top: 15px
 	font-weight: bold
@@ -72,7 +94,7 @@ form
 	background: rgba(251,224,135, 0.8)
 	width: 325px
 	text-align: center
-	margin: 150px auto 0 auto
+	margin: 50px auto 0 auto
 form input
 	padding: 5px
 	margin: 10px auto
@@ -110,13 +132,32 @@ form input[type="submit"]
 	border-radius: 20px
 	background: #FBE087
 	height: 400px
+	margin-top: 100px
 .itemsec p
 	height: 220px
 .itemseccenter
-	margin-top: -50px
+	margin-top: 50px
 	height: 550px
 	margin-bottom: 40px
 .itemseccenter p
 	height: 370px
 #section2 .row
 	padding-top: 30px
+#cakebg
+	height: 800px
+	background: url(../img/cake.jpg) no-repeat center center
+@media only screen and (max-width : 990px)
+	header h1
+		text-align: center
+	.main-logo
+		text-align: center !important
+		float: none !important
+	.header-contacts-item:first-child
+		float:left !important
+	.header-contacts-item:last-child
+		text-align: right !important
+	.header-contacts-item
+		margin-bottom: 30px
+@media only screen and (max-width : 600px)
+	.header-contacts-item:first-child
+		float: right !important
