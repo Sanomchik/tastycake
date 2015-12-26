@@ -60,7 +60,7 @@ p {
 }
 
 section {
-  height: 800px;
+  height: 700px;
 }
 
 header {
@@ -68,27 +68,33 @@ header {
   background-color: rgba(255, 255, 255, 0.6);
 }
 
-.header-contacts {
-  font-size: 35px;
+.header-logo-heading h1 {
+  font-style: italic;
+}
+
+.main-logo {
+  text-align: center !important;
+}
+
+.header-right-item {
+  margin-top: 68px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.header-right-item i {
+  font-size: 25px;
   color: #AD2959;
 }
 
-.header-contacts i {
-  margin-top: 50px;
-}
-
-.header-contacts a {
-  margin-top: 53px;
-  font-size: 20px;
+.header-right-item a {
+  margin-left: 15px;
   color: #118DF0;
+  font-size: 15px;
 }
 
-.header-contacts a:hover {
+.header-right-item a:hover {
   text-decoration: underline !important;
-}
-
-.header-contacts-item {
-  width: 275px;
 }
 
 #section1 {
@@ -98,7 +104,7 @@ header {
 }
 
 #section1 h1 {
-  line-height: 120px;
+  margin-top: 65px;
 }
 
 #mynavbar {
@@ -141,25 +147,29 @@ h3 {
   font-weight: bold;
 }
 
-form {
+#section1 form {
   background: rgba(251, 224, 135, 0.8);
-  width: 325px;
+  width: 300px;
   text-align: center;
   margin: 50px auto 0 auto;
 }
 
-form input {
+#section1 form input {
   padding: 5px;
   margin: 10px auto;
   width: 70%;
 }
 
-form input[type="submit"] {
+#section1 form input[type="submit"] {
   background: #F2676A;
   height: 30px;
   border: none;
   color: white;
   margin-bottom: 20px;
+}
+
+form input[type="submit"]:hover {
+  background: #ee383c !important;
 }
 
 #section2 {
@@ -175,6 +185,7 @@ form input[type="submit"] {
 }
 
 .arrowparrent {
+  height: 50px !important;
   text-align: center;
 }
 
@@ -186,13 +197,14 @@ form input[type="submit"] {
   display: inline-block;
   width: 200px;
   height: 50px;
-  background: #AD2959;
+  background: #c7027a;
   line-height: 50px;
   color: white;
 }
 
 .toorder:hover {
-  color: #e1c979;
+  background: #94025b;
+  color: white;
 }
 
 .itemsec {
@@ -201,7 +213,7 @@ form input[type="submit"] {
   border-radius: 20px;
   background: #FBE087;
   height: 400px;
-  margin-top: 100px;
+  margin-top: 70px;
 }
 
 .itemsec p {
@@ -209,7 +221,7 @@ form input[type="submit"] {
 }
 
 .itemseccenter {
-  margin-top: 50px;
+  margin-top: 20px;
   height: 550px;
   margin-bottom: 40px;
 }
@@ -218,36 +230,83 @@ form input[type="submit"] {
   height: 370px;
 }
 
-#section2 .row {
-  padding-top: 30px;
-}
-
-#cakebg {
-  height: 800px;
+#section3 {
+  height: 600px !important;
   background: url(../img/cake.jpg) no-repeat center center;
 }
 
+.cake-info-item h4 {
+  line-height: 80px;
+}
+
+.cake-info-item i {
+  float: left;
+  font-size: 40px;
+  line-height: 80px;
+  margin: 0 15px;
+}
+
+.cake-info-item-desc {
+  height: 80px;
+  width: 350px;
+  margin: 0 auto;
+  background-color: rgba(251, 224, 135, 0.7);
+}
+
+#section4 form {
+  text-align: center;
+  line-height: 100px;
+}
+
+#section4 form input {
+  height: 30px;
+  width: 170px;
+}
+
+#section4 form input[type="submit"] {
+  background: #F2676A;
+  height: 30px;
+  border: none;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.form-bg {
+  min-height: 100px;
+  background-color: #c7027a;
+}
+
+.section4-arrow {
+  top: 10px !important;
+  bottom: 0 !important;
+}
+
+.section4-bg {
+  background: #fdedb8;
+  height: auto;
+}
+
+#section4 .reviews-pic {
+  height: 200px;
+  line-height: 200px;
+  text-align: center;
+}
+
+#section4 .reviews-info {
+  margin-top: 15px;
+}
+
 @media only screen and (max-width: 990px) {
-  header h1 {
-    text-align: center;
-  }
-  .main-logo {
-    text-align: center !important;
-    float: none !important;
-  }
-  .header-contacts-item:first-child {
-    float: left !important;
-  }
-  .header-contacts-item:last-child {
-    text-align: right !important;
-  }
-  .header-contacts-item {
-    margin-bottom: 30px;
+  .header-right-item {
+    margin-top: 20px !important;
   }
 }
 
-@media only screen and (max-width: 600px) {
-  .header-contacts-item:first-child {
-    float: right !important;
+@media only screen and (max-width: 770px) {
+  .reviews-info h3 {
+    text-align: center;
+  }
+  .reviews-info p {
+    text-align: center;
   }
 }

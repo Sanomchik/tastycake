@@ -1,9 +1,9 @@
 $(document).ready(function(){
-	$('.centerbox').animated('zoomIn', 'zoomOut');
-	$('.aboutleft').animated('slideInLeft', 'fadeOut');
-	$('.aboutright').animated('slideInRight', 'fadeOut');
-	$('.hhead').animated('fadeInDown', 'fadeOut');
-	$('.itemskills').animated('flipInY', 'fadeIn');
+	$('.cake-info-item-desc').animated('rubberBand', 'zoomOut');
+	$('.itemsec').animated('fadeIn', 'zoomOut');
+	$('.start-form').animated('bounce', 'zoomOut');
+	$('.reviews-pic').animated('slideInLeft', 'zoomOut');
+	$('.reviews-info').animated('slideInRight', 'zoomOut');
 	$("nav ul a").mPageScroll2id();
 	$("section a").mPageScroll2id();
 $(window).scroll(function() {
