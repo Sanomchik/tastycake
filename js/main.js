@@ -1,7 +1,6 @@
 $(document).ready(function(){
 	$('.cake-info-item-desc').animated('rubberBand', 'zoomOut');
 	$('.itemsec').animated('fadeIn', 'zoomOut');
-	$('.start-form').animated('bounce', 'zoomOut');
 	$('.reviews-pic').animated('slideInLeft', 'zoomOut');
 	$('.reviews-info').animated('slideInRight', 'zoomOut');
 	$("nav ul a").mPageScroll2id();

@@ -83,8 +83,9 @@ header
 	left: auto !important
 #mynavbar ul li a
 	text-align: center !important
-	font-size: 30px
+	font-size: 25px
 	color: $my-dark
+	padding:5px 15px !important
 #mynavbar ul li a:hover
 	color: $my-pink !important
 	background: none
@@ -130,6 +131,8 @@ form input[type="submit"]:hover
 	text-align: center
 .arrowparrent i
 	color: $my-blue
+.arrowparrent i:hover
+	color: darken( $my-blue, 20%)
 .toorder
 	display: inline-block
 	width: 200px
@@ -168,7 +171,7 @@ form input[type="submit"]:hover
 	font-size: 40px
 	line-height: 80px
 	margin: 0 15px
-	color: $my-pink
+	color: $my-red
 .cake-info-item-desc
 	height: 80px
 	width: 300px
@@ -191,6 +194,8 @@ form input[type="submit"]:hover
 .form-bg
 	min-height: 100px
 	background-color: lighten( $my-dark, 20%)
+.small-form
+	padding-bottom: 0 !important
 .section4-arrow
 	top: 10px !important
 	bottom: 0 !important
@@ -226,6 +231,8 @@ form input[type="submit"]:hover
 	color: lighten( black, 50%)
 .section5-left-items-info a:hover
 	text-decoration: underline !important
+#section5
+	height: auto
 #section5 form
 	text-align: center
 #section5 form input
@@ -239,8 +246,24 @@ form input[type="submit"]:hover
 	border: none
 	color: white
 	margin-bottom: 20px
+.footer-items
+	min-height: 100px
 form input[type="submit"]:hover
 	background: darken( $my-red, 10% ) !important
+footer
+	color: white
+	line-height: 100px
+	min-height: 100px
+	background: $my-dark
+footer p
+	padding-left: 10px
+	font-size: 15px
+footer i
+	padding-right: 10px
+	color: $my-red
+	font-size: 25px !important
+footer i:hover
+	color: darken( $my-red, 10% ) !important
 @media only screen and (max-width : 990px)
 	.header-right-item
 		margin-top: 20px !important
@@ -258,3 +281,10 @@ form input[type="submit"]:hover
 		width: 250px
 	.section5-left-items
 		padding-bottom: 0px !important
+@media only screen and (max-width : 395px)
+	.footer-left
+		width: 100%
+		text-align: center !important
+	.footer-right
+		width: 100%
+		text-align: center !important

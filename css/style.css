@@ -116,8 +116,9 @@ header {
 
 #mynavbar ul li a {
   text-align: center !important;
-  font-size: 30px;
+  font-size: 25px;
   color: #62013C;
+  padding: 5px 15px !important;
 }
 
 #mynavbar ul li a:hover {
@@ -193,6 +194,10 @@ form input[type="submit"]:hover {
   color: #118DF0;
 }
 
+.arrowparrent i:hover {
+  color: #095592;
+}
+
 .toorder {
   display: inline-block;
   width: 200px;
@@ -249,7 +254,7 @@ form input[type="submit"]:hover {
   font-size: 40px;
   line-height: 80px;
   margin: 0 15px;
-  color: #AD2959;
+  color: #F2676A;
 }
 
 .cake-info-item-desc {
@@ -284,6 +289,10 @@ form input[type="submit"]:hover {
 .form-bg {
   min-height: 100px;
   background-color: #c7027a;
+}
+
+.small-form {
+  padding-bottom: 0 !important;
 }
 
 .section4-arrow {
@@ -347,6 +356,10 @@ form input[type="submit"]:hover {
   text-decoration: underline !important;
 }
 
+#section5 {
+  height: auto;
+}
+
 #section5 form {
   text-align: center;
 }
@@ -366,8 +379,34 @@ form input[type="submit"]:hover {
   margin-bottom: 20px;
 }
 
+.footer-items {
+  min-height: 100px;
+}
+
 form input[type="submit"]:hover {
   background: #ee383c !important;
+}
+
+footer {
+  color: white;
+  line-height: 100px;
+  min-height: 100px;
+  background: #62013C;
+}
+
+footer p {
+  padding-left: 10px;
+  font-size: 15px;
+}
+
+footer i {
+  padding-right: 10px;
+  color: #F2676A;
+  font-size: 25px !important;
+}
+
+footer i:hover {
+  color: #ee383c !important;
 }
 
 @media only screen and (max-width: 990px) {
@@ -397,5 +436,16 @@ form input[type="submit"]:hover {
   }
   .section5-left-items {
     padding-bottom: 0px !important;
+  }
+}
+
+@media only screen and (max-width: 395px) {
+  .footer-left {
+    width: 100%;
+    text-align: center !important;
+  }
+  .footer-right {
+    width: 100%;
+    text-align: center !important;
   }
 }
