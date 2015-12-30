@@ -232,7 +232,12 @@ form input[type="submit"]:hover {
 
 #section3 {
   height: 600px !important;
-  background: url(../img/cake.jpg) no-repeat center center;
+  background: url(../img/cake.jpg) no-repeat bottom center;
+}
+
+#section3 h3 {
+  margin-top: 0 !important;
+  color: #AD2959;
 }
 
 .cake-info-item h4 {
@@ -244,13 +249,18 @@ form input[type="submit"]:hover {
   font-size: 40px;
   line-height: 80px;
   margin: 0 15px;
+  color: #AD2959;
 }
 
 .cake-info-item-desc {
   height: 80px;
-  width: 350px;
+  width: 300px;
   margin: 0 auto;
   background-color: rgba(251, 224, 135, 0.7);
+}
+
+#section4 {
+  height: auto;
 }
 
 #section4 form {
@@ -260,7 +270,7 @@ form input[type="submit"]:hover {
 
 #section4 form input {
   height: 30px;
-  width: 170px;
+  width: 150px;
 }
 
 #section4 form input[type="submit"] {
@@ -286,6 +296,10 @@ form input[type="submit"]:hover {
   height: auto;
 }
 
+#section4 .row:last-child {
+  padding-bottom: 50px;
+}
+
 #section4 .reviews-pic {
   height: 200px;
   line-height: 200px;
@@ -296,6 +310,66 @@ form input[type="submit"]:hover {
   margin-top: 15px;
 }
 
+.section5-right-items {
+  padding: 100px 0;
+}
+
+.section5-left-items {
+  padding: 100px 0;
+}
+
+.section5-left-items h4 {
+  color: black;
+  padding-bottom: 10px;
+}
+
+.section5-left-items i {
+  text-align: right !important;
+  padding: 20px;
+  font-size: 55px;
+  color: #F2676A;
+}
+
+.section5-left-items-i {
+  text-align: center;
+}
+
+.section5-left-items-info {
+  font-size: 15px;
+  color: gray;
+}
+
+.section5-left-items-info a {
+  color: gray;
+}
+
+.section5-left-items-info a:hover {
+  text-decoration: underline !important;
+}
+
+#section5 form {
+  text-align: center;
+}
+
+#section5 form input {
+  padding: 5px;
+  margin: 10px auto;
+  width: 300px;
+  height: 50px;
+}
+
+#section5 form input[type="submit"] {
+  background: #F2676A;
+  height: 50px;
+  border: none;
+  color: white;
+  margin-bottom: 20px;
+}
+
+form input[type="submit"]:hover {
+  background: #ee383c !important;
+}
+
 @media only screen and (max-width: 990px) {
   .header-right-item {
     margin-top: 20px !important;
@@ -303,10 +377,25 @@ form input[type="submit"]:hover {
 }
 
 @media only screen and (max-width: 770px) {
+  #section5 form input {
+    width: 450px;
+  }
+  .section5-left-items {
+    padding-bottom: 0px !important;
+  }
   .reviews-info h3 {
     text-align: center;
   }
   .reviews-info p {
     text-align: center;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  #section5 form input {
+    width: 250px;
+  }
+  .section5-left-items {
+    padding-bottom: 0px !important;
   }
 }
